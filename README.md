@@ -12,7 +12,7 @@ practice/
   │    ├── test_sample.py      # 샘플 테스트 코드
   │    └── test_calculator.py  # 계산기 기능 테스트 코드
   └── calculator/       # 계산기 비즈니스 로직 및 GUI 코드
-       └── calc.py      # 계산 로직 (add 등)
+       └── calc.py      # 계산 로직 (add, sub, mul, div 등)
 ```
 
 ## 개발 방식
@@ -24,7 +24,7 @@ practice/
 ## 개발 환경 및 테스트
 - PySide6, pytest 설치
 - `tests/test_sample.py`에서 pytest 정상 동작 확인
-- `tests/test_calculator.py`에서 덧셈 기능 테스트 및 구현
+- `tests/test_calculator.py`에서 덧셈, 뺄셈, 곱셈, 나눗셈, 예외(0으로 나누기) 테스트 및 구현
 - 아래 명령어로 테스트 실행 가능
 
 ```bash
