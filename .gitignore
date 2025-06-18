@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+*.sqlite3
+.env
+.venv/
+venv/
+ENV/
+.envrc
+.DS_Store
+.ipynb_checkpoints/
+# VSCode
+.vscode/
+# macOS
+.DS_Store 
